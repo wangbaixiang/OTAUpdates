@@ -136,6 +136,7 @@ ro.ota.romname=JFLTE-GPE
 ro.ota.version=20150105
 ro.ota.manifest=https://example.com/path/to/ota.xml
 ```
+  ### so for different version we can set differett url for OTA package?
   
 Please pay CLOSE attention to the ro.ota.version entry. This is not your particular ROM version (v6.5 or v1.2.5, for example) this is a value for the OTA app to determine if an update is available. Your NEXT version should be numerically higher than this. You may use value you like, so long as it is an integer and successive updates are larger.
 
